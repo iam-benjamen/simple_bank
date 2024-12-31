@@ -3,6 +3,7 @@ sql:
   - engine: "postgresql"
     queries: "./db/query/"
     schema: "./db/migration/"
+    sql_package: "database/sql"
     gen:
       go:
         package: "db"
